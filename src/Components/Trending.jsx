@@ -117,25 +117,14 @@ const TrendingProducts = () => {
                 alt={product.title}
                 className="w-full h-full object-cover"
               />
-              {/* <div className="p-4">
-                <h3 className="text-lg font-semibold">{product.title}</h3>
-                <p className="text-gray-500">{product.category}</p>
-                <p className="text-gray-800 font-bold">{product.price}</p>
-              </div>
-              <div className="p-4">
-                <button className="w-full py-2 bg-black text-gray-300 rounded-md text-bold">
-                  ADD TO BAG
-                </button>
-              </div> */}
               <div className="p-4 flex items-center justify-between">
-  {/* Title and Category */}
+
   <div>
     <h3 className="text-lg font-semibold">{product.title}</h3>
     <p className="text-gray-500">{product.category}</p>
     <p className="text-gray-800 font-bold">{product.price}</p>
   </div>
 
-  {/* Add to Bag Button */}
   <button className="py-1 text-sm mt-0 px-6 bg-black text-gray-300 rounded-md font-bold">
     ADD TO BAG
   </button>

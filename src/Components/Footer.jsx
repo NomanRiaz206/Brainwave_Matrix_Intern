@@ -8,7 +8,7 @@ const Footer = () => {
 <footer className="bg-gray-100 text-gray-700 py-8">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          {/* Contact Us Section */}
+      
           <div>
             <h3 className="font-bold text-lg mb-4">CONTACT US</h3>
             <p className="text-sm"><FontAwesomeIcon icon="fa-solid fa-location-dot" />  
@@ -20,7 +20,7 @@ const Footer = () => {
             <p className="text-sm"><FontAwesomeIcon icon="fa-solid fa-phone" /> +92 (0)42 111-738-245</p>
           </div>
 
-          {/* Customer Care Section */}
+          
           <div>
             <h3 className="font-bold text-lg mb-4">CUSTOMER CARE</h3>
             <ul className="space-y-2">
@@ -30,7 +30,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Information Section */}
+      
           <div>
             <h3 className="font-bold text-lg mb-4">INFORMATION</h3>
             <ul className="space-y-2">
@@ -44,7 +44,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Newsletter Signup Section */}
+         
           <div>
             <h3 className="font-bold text-lg mb-4">NEWSLETTER SIGNUP</h3>
             <p className="text-sm mb-4">Subscribe to our Newsletter for exclusive updates</p>
@@ -75,7 +75,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom Section */}
+     
         <div className="mt-8 border-t pt-4 flex flex-col md:flex-row justify-between items-center text-sm">
           <p className="text-gray-600">&copy; COPYRIGHT 2024 SAPPHIRE</p>
           

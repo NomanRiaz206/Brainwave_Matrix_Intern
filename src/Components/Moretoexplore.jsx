@@ -36,12 +36,12 @@ const exploreItems = [
 const MoreToExplore = () => {
   return (
     <div className="container mx-auto py-8 relative">
-      {/* Header */}
+      
       <div className="bg-white p-4 mx-auto text-center max-w-xs border-b mb-4">
         <h2 className="text-lg font-bold">MORE TO EXPLORE</h2>
       </div>
 
-      {/* Swiper */}
+      
       <Swiper
         modules={[Navigation, Autoplay]}
         spaceBetween={20}
@@ -81,7 +81,6 @@ const MoreToExplore = () => {
         ))}
       </Swiper>
 
-      {/* Navigation Arrows */}
       <div
         className="swiper-button-prev absolute top-1/2 -left-10 transform -translate-y-1/2 z-10 cursor-pointer"
         style={{ color: '#000' }}

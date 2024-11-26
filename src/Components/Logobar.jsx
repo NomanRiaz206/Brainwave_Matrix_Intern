@@ -19,7 +19,6 @@ const Logobar = () => {
     aria-describedby="button-addon2"
   />
 
-  {/* Search Icon */}
   <span className="absolute inset-y-0 right-3 flex items-center">
     <svg
       xmlns="http://www.w3.org/2000/svg"

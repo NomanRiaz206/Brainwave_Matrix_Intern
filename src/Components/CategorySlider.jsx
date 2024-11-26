@@ -3,7 +3,7 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import { Navigation } from 'swiper/modules'; // Only import Navigation module (remove Pagination since we won't use it)
+import { Navigation } from 'swiper/modules'; 
 
 const categories = [
   { title: 'UNSTITCHED', imageUrl: '/images/SC1.webp' },
@@ -20,14 +20,14 @@ const categories = [
 const ShopCategories = () => {
   return (
     <div className="container mx-auto py-8">
-      {/* Heading Section */}
+   
       <div className="bg-white p-4 mx-auto text-center max-w-xs border-b mb-3">
         <h2 className="text-lg font-bold">SHOP BY CATEGORY</h2>
       </div>
 
-      {/* Swiper Component */}
+    
       <Swiper
-        modules={[Navigation]} // Only Navigation module
+        modules={[Navigation]} 
         spaceBetween={20}
         slidesPerView={4}
         slidesPerGroup={4}
@@ -49,14 +49,13 @@ const ShopCategories = () => {
         {categories.map((category) => (
           <SwiperSlide key={category.title}>
             <div className="relative group mt-5">
-              {/* Image */}
+           
               <img
                 src={category.imageUrl}
                 alt={category.title}
                 className="w-full h-full object-cover transition-transform transform group-hover:scale-105"
               />
 
-              {/* Title Below Image */}
               <div className="text-center mt-2">
                 <span className="text-lg font-semibold text-gray-800">
                   {category.title}
